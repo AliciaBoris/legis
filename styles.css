@@ -1,0 +1,125 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    border:rgb(1, 8, 14)
+}
+
+thead th {
+    background-color: #04744f;
+    color: white;
+    padding: 10px;
+    border-bottom: #140000;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #73ce7b;
+    text-align: center;
+    text-decoration-thickness: bold;
+    color:#dfe767;
+    background-color: #0c0c0c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5fa;
+}
+
+body {
+    background-image: url("LEGIS Legal Organizer white.png");
+    background-size: auto;
+    background-attachment: fixed;
+  background-position: center;
+}
+h1, h2 {
+    text-align: center;
+    color: rgb(1, 8, 14);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: align-left;
+    padding: 40px;
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 10px;
+    color: rgb(229, 241, 236);
+}
+
+form input, form button {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(242, 253, 251);
+}
+form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(2, 104, 70);
+    color:rgb(240, 253, 255);
+    font-size: 16px;
+    }
+
+ .search-bar {
+        width: 200px;
+        height: 40px;
+        border: none;
+        padding: 6px;
+        margin-right: 16px;
+        font-size: 17px;
+        }
+        
+        .complete-btn {
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+          }
+          
+          .complete-btn.completed {
+            background-color: red;
+          }
+          
+          .delete-btn.completed {
+            background-color: rgb(210, 233, 6);
+          }
+          .edit-btn {
+            background-color: #15a350;
+        }
+        
+          #show-summary-btn {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+          }
+          
+          #show-summary-btn:hover {
+            background-color: #555;
+          }

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    background-image: url("LEGIS Legal Organizer.png");
+    background-size: auto;
+    background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.login-form h2 {
+    color: white;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #999595;
+}
+
+#login-btn {
+    margin-bottom: 20px;
+}
